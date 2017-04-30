@@ -1,0 +1,45 @@
+html, body {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	
+}
+
+header {
+	background-color: #444444;
+	height: 125px;
+	z-index: 0;
+}
+
+.content {
+	width: 85%;
+	justify-content: space-between;
+}
+
+.left {
+	display: flex;
+	height: 87%;
+	width: 15%;
+	background-color: #d8d8d8;
+	position: absolute;
+	left: 0;
+}
+
+.right {
+	display: flex;
+	height: 87%;
+	width: 15%;
+	background-color: #d8d8d8;
+	position: absolute;
+	right: 0;
+}
+
+footer {
+	background-color: #222222;
+	height: 10%;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+	bottom: -5px;
+}
+
